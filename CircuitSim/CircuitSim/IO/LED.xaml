@@ -1,0 +1,18 @@
+﻿<BaseObjects:CircuitObject x:Class="CircuitSim.IO.LED"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:BaseObjects="clr-namespace:CircuitSim.BaseObjects" 
+             mc:Ignorable="d" 
+             Height="30" Width="30">
+    <Grid x:Name="LEDGrid">
+        <Border BorderBrush="#FF8D8D8D" Margin="6" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Rectangle x:Name="LEDRect" Fill="Black" Margin="1"></Rectangle>
+        </Border>
+        <BaseObjects:Input x:Name="LeftInput" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <BaseObjects:Input x:Name="TopInput" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <BaseObjects:Input x:Name="BottomInput" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+        <BaseObjects:Output x:Name="RightOutput" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+    </Grid>
+</BaseObjects:CircuitObject>

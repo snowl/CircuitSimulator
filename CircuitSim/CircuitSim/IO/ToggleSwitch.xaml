@@ -1,0 +1,15 @@
+﻿<BaseObjects:CircuitObject x:Class="CircuitSim.IO.ToggleSwitch"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:BaseObjects="clr-namespace:CircuitSim.BaseObjects"
+             mc:Ignorable="d" 
+             Height="30" Width="30">
+    <Grid>
+        <Border CornerRadius="8" BorderBrush="#FF8D8D8D" Margin="6" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Ellipse x:Name="ToggleRect" Fill="Black" Margin="1" MouseDown="ToggleRect_MouseDown"></Ellipse>
+        </Border>
+        <BaseObjects:Output x:Name="Output" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+    </Grid>
+</BaseObjects:CircuitObject>

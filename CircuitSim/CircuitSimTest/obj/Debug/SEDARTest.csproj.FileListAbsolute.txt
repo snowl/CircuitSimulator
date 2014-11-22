@@ -1,0 +1,7 @@
+C:\Users\David\Documents\Visual Studio 14\Projects\SEDAR\SEDARTest\obj\Debug\SEDARTest.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\Visual Studio 14\Projects\SEDAR\SEDARTest\bin\Debug\SEDARTest.dll
+C:\Users\David\Documents\Visual Studio 14\Projects\SEDAR\SEDARTest\bin\Debug\SEDARTest.pdb
+C:\Users\David\Documents\Visual Studio 14\Projects\SEDAR\SEDARTest\bin\Debug\SEDAR.exe
+C:\Users\David\Documents\Visual Studio 14\Projects\SEDAR\SEDARTest\bin\Debug\SEDAR.pdb
+C:\Users\David\Documents\Visual Studio 14\Projects\SEDAR\SEDARTest\obj\Debug\SEDARTest.dll
+C:\Users\David\Documents\Visual Studio 14\Projects\SEDAR\SEDARTest\obj\Debug\SEDARTest.pdb
