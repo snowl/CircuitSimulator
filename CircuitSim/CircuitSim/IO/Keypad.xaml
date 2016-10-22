@@ -1,0 +1,37 @@
+﻿<BaseObjects:CircuitObject
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CircuitSim.IO" xmlns:BaseObjects="clr-namespace:CircuitSim.BaseObjects" 
+             x:Class="CircuitSim.IO.Keypad" 
+             mc:Ignorable="d" 
+             Height="134" Width="74" >
+    <Grid>
+        <Border BorderBrush="#FF8D8D8D" Margin="6" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <WrapPanel Orientation="Horizontal" Background="White">
+                <RadioButton x:Name="Zero" Width="20" Content="0" Checked="Radio_Checked" Style="{StaticResource {x:Type ToggleButton}}"/>
+                <RadioButton x:Name="One" Width="20" Content="1" Checked="Radio_Checked" Style="{StaticResource {x:Type ToggleButton}}"/>
+                <RadioButton x:Name="Two" Width="20" Content="2" Checked="Radio_Checked" Style="{StaticResource {x:Type ToggleButton}}"/>
+                <RadioButton x:Name="Three" Width="20" Content="3" Checked="Radio_Checked" Style="{StaticResource {x:Type ToggleButton}}"/>
+                <RadioButton x:Name="Four" Width="20" Content="4" Checked="Radio_Checked" Style="{StaticResource {x:Type ToggleButton}}"/>
+                <RadioButton x:Name="Five" Width="20" Content="5" Checked="Radio_Checked" Style="{StaticResource {x:Type ToggleButton}}"/>
+                <RadioButton x:Name="Six" Width="20" Content="6" Checked="Radio_Checked" Style="{StaticResource {x:Type ToggleButton}}"/>
+                <RadioButton x:Name="Seven" Width="20" Content="7" Checked="Radio_Checked" Style="{StaticResource {x:Type ToggleButton}}"/>
+                <RadioButton x:Name="Eight" Width="20" Content="8" Checked="Radio_Checked" Style="{StaticResource {x:Type ToggleButton}}"/>
+                <RadioButton x:Name="Nine" Width="20" Content="9" Checked="Radio_Checked" Style="{StaticResource {x:Type ToggleButton}}"/>
+                <RadioButton x:Name="A" Width="20" Content="A" Checked="Radio_Checked" Style="{StaticResource {x:Type ToggleButton}}"/>
+                <RadioButton x:Name="B" Width="20" Content="B" Checked="Radio_Checked" Style="{StaticResource {x:Type ToggleButton}}"/>
+                <RadioButton x:Name="C" Width="20" Content="C" Checked="Radio_Checked" Style="{StaticResource {x:Type ToggleButton}}"/>
+                <RadioButton x:Name="D" Width="20" Content="D" Checked="Radio_Checked" Style="{StaticResource {x:Type ToggleButton}}"/>
+                <RadioButton x:Name="E" Width="20" Content="E" Checked="Radio_Checked" Style="{StaticResource {x:Type ToggleButton}}"/>
+                <RadioButton x:Name="F" Width="20" Content="F" Checked="Radio_Checked" Margin="20, 0, 0, 0" Style="{StaticResource {x:Type ToggleButton}}"/>
+            </WrapPanel>
+        </Border>
+
+        <BaseObjects:Output x:Name="Output1" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,6,0,0"/>
+        <BaseObjects:Output x:Name="Output2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,0,37"/>
+        <BaseObjects:Output x:Name="Output3" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,0,-37"/>
+        <BaseObjects:Output x:Name="Output4" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,10"/>
+    </Grid>
+</BaseObjects:CircuitObject>

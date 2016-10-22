@@ -44,6 +44,7 @@
             <IO:Power CanMove="False" ToolTip="Power"/>
             <IO:TextLED CanMove="False" ToolTip="TextLED"/>
             <IO:Clock CanMove="False" ToolTip="Clock"/>
+            <IO:Keypad CanMove="False" ToolTip="JK FlipFlop"/>
             <FlipFlop:D CanMove="False" ToolTip="D FlipFlop"/>
             <FlipFlop:JK CanMove="False" ToolTip="JK FlipFlop"/>
         </ListView>
