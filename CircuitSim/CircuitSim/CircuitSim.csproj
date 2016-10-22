@@ -91,6 +91,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="IO\Keypad.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="IO\LED.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -143,6 +147,9 @@
     </Compile>
     <Compile Include="IO\Junction.xaml.cs">
       <DependentUpon>Junction.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IO\Keypad.xaml.cs">
+      <DependentUpon>Keypad.xaml</DependentUpon>
     </Compile>
     <Compile Include="IO\LED.xaml.cs">
       <DependentUpon>LED.xaml</DependentUpon>
